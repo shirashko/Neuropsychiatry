@@ -1,7 +1,3 @@
-Absolutely, I've added that information to the README template:
-
----
-
 # Personality Traits Analysis and Clustering
 
 This project aims to analyze personality traits data and perform clustering analysis to identify distinct personality profiles within the dataset.
@@ -68,7 +64,7 @@ To run this project locally, follow these steps:
 - scikit-learn
 
 ## Original Code
-The original code that this project is based on is included in the repository as "". This code serves as the foundation for the clustering analysis in this project.
+The original code that this project is based on is included in the repository as "five-personality-clusters-k-means.ipynb". This code serves as the foundation for the clustering analysis in this project.
 
 ## Usage
 
