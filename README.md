@@ -73,8 +73,3 @@ The original code that this project is based on is included in the repository as
 2. Ensure the `data-final.csv` file is in the same directory.
 3. Run the script using `python script_name.py`.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
- 
----
