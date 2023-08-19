@@ -1,7 +1,5 @@
 # Personality Traits Analysis and Clustering
 
-![Personality Traits](URL_OF_YOUR_IMAGE)
-
 
 This project aims to analyze personality traits data and perform clustering analysis to identify distinct personality profiles within the dataset.
 
