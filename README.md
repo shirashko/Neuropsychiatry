@@ -13,6 +13,7 @@ This project aims to analyze personality traits data and perform clustering anal
 - [Getting Started](#getting-started)
 - [Dependencies](#dependencies)
 - [Usage](#usage)
+- [Original Code](#original-code)
 - [License](#license)
 
 ## Introduction
@@ -77,3 +78,5 @@ The original code that this project is based on is included in the repository as
 This project is licensed under the [MIT License](LICENSE).
 
 ---
+
+![Personality Traits](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ddiworld.com%2Fblog%2Fhow-to-use-personality-tests-in-the-workplace&psig=AOvVaw078Uh-_csFgUuhZLF2AJvJ&ust=1692530949457000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCJiHhafP6IADFQAAAAAdAAAAABAD)
