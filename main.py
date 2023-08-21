@@ -61,7 +61,7 @@ def main():
 
     # Perform k-means clustering - define 6 clusters and fit the model
     kmeans = KMeans(n_clusters=6, random_state=0, n_init=10)
-    cluster_labels = kmeans.fit_predict(scaled_trait_data)
+    cluster_labels = kmeans.fit_predict(scaled_trait_data) + 1  # Adjust cluster labels
 
     # Add cluster labels to scaled trait data
     scaled_trait_data['Clusters'] = cluster_labels
@@ -71,8 +71,8 @@ def main():
 
     # Create subplots
     fig, axs = plt.subplots(1, 6, figsize=(22, 5), sharey=True)
-    for cluster_id in range(6):
-        ax = axs[cluster_id]
+    for cluster_id in range(1, 7):  # Adjust cluster range
+        ax = axs[cluster_id - 1]
         cluster_data = mean_trait_clusters.loc[cluster_id]
         cluster_data.plot(kind='bar', ax=ax, color='green', alpha=0.2)
         cluster_data.plot(kind='line', ax=ax, color='red')
@@ -89,7 +89,7 @@ def main():
     pca_fit = pca.fit_transform(trait_data)
     pca_data = pd.DataFrame(data=pca_fit, columns=['PCA1', 'PCA2'])
 
-    # Add cluster labels to PCA data
+    # Add adjusted cluster labels to PCA data
     pca_data['Clusters'] = cluster_labels
 
     # Visualization
@@ -97,7 +97,7 @@ def main():
     sns.scatterplot(data=pca_data, x='PCA1', y='PCA2', hue='Clusters', palette='Set2', alpha=0.8)
     plt.title('Personality Clusters after PCA')
     plt.show()
-
+    
     # check correlation
 
     # Calculate the correlation matrix for the factors
