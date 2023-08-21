@@ -39,7 +39,6 @@ The main analysis involves K-means clustering, where the scaled data is clustere
 ## Visualization
 
 The project includes visualizations of:
-- Histograms depicting the distribution of answers for each question within trait groups
 - Bar plots and line plots to display the means of personality factors for each cluster
 - 2D scatter plot using PCA to visualize the clusters
 
