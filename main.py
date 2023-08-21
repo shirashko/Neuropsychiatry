@@ -20,7 +20,7 @@ def main():
     data = data[(data > 1).any(axis=1)]
     data = data[(data < 5).any(axis=1)]
 
-    CON = data.iloc[:, 30:40].mean(axis=1)
+    CON = data.iloc[:, 30:40].mean(axis=1)  # compute for showing correlation in big 5 later
 
     # process data to fit the 6 factor model we suggest
     # Rename the columns: define new column names for out model for Ambitious and Methodical factors.
@@ -51,7 +51,6 @@ def main():
     trait_data = pd.DataFrame()
     for trait, questions in trait_groups.items():
         trait_data[trait] = data[questions].mean(axis=1)
-
 
 
     # Apply MinMax scaling to the trait data - features by scaling each feature to a given range (0 to 1 in this case).
