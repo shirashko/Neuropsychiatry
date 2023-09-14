@@ -23,7 +23,7 @@ def main():
     CON = data.iloc[:, 30:40].mean(axis=1)  # compute for showing correlation in big 5 later
 
     # process data to fit the 6 factor model we suggest
-    # Rename the columns: define new column names for out model for Ambitious and Methodical factors.
+    # Rename the columns: define new column names for our model for Ambitious and Methodical factors.
     new_column_names = [column for column in data]
     new_column_names[30] = "AMB1"
     new_column_names[31] = "MET1"
@@ -47,7 +47,7 @@ def main():
         'OPN': ['OPN1', 'OPN2', 'OPN3', 'OPN4', 'OPN5', 'OPN6', 'OPN7', 'OPN8', 'OPN9', 'OPN10']
     }
 
-    # Create a data table with 6 trait columns
+    # Create a data table with 6 trait columns, each calculated as the average answer for questions related to this trait
     trait_data = pd.DataFrame()
     for trait, questions in trait_groups.items():
         trait_data[trait] = data[questions].mean(axis=1)
