@@ -41,13 +41,17 @@ The main analysis involves K-means clustering, where the scaled data is clustere
 
 The project includes visualizations of:
 - Bar plots and line plots to display the means of personality factors for each cluster
-- <img width="1002" alt="image" src="https://github.com/shirashko/Neuropsychiatry/assets/130151997/7c553b0c-f997-4bcf-b0ea-4d9b9b00af85">
+ <img width="1002" alt="image" src="https://github.com/shirashko/Neuropsychiatry/assets/130151997/7c553b0c-f997-4bcf-b0ea-4d9b9b00af85">
 
 - 2D scatter plot using PCA to visualize the clusters
+  <img width="582" alt="image" src="https://github.com/shirashko/Neuropsychiatry/assets/130151997/1869f10b-259e-444c-a780-1160e5a53298">
+
 
 ## Correlation Analysis
 
 Correlation matrices are computed to examine relationships between different personality factors. Heatmaps are used to visualize the correlation values.
+<img width="970" alt="image" src="https://github.com/shirashko/Neuropsychiatry/assets/130151997/e50b20be-0414-4d8f-931f-10c14d95dbd6">
+
 
 ## Getting Started
 
