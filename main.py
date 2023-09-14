@@ -70,7 +70,7 @@ def main():
 
     # Create subplots
     fig, axs = plt.subplots(1, 6, figsize=(22, 5), sharey=True)
-    for cluster_id in range(1, 7):  # Adjust cluster range
+    for cluster_id in range(1, 7):  
         ax = axs[cluster_id - 1]
         cluster_data = mean_trait_clusters.loc[cluster_id]
         cluster_data.plot(kind='bar', ax=ax, color='green', alpha=0.2)
