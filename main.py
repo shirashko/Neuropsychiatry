@@ -53,8 +53,7 @@ def main():
         trait_data[trait] = data[questions].mean(axis=1)
 
 
-    # Apply MinMax scaling to the trait data - features by scaling each feature to a given range (0 to 1 in this case).
-    # This is often done before applying machine
+    # Apply MinMax scaling to the trait data features by scaling each feature to a given range (0 to 1 in this case).
     scaler = MinMaxScaler(feature_range=(0, 1))
     scaled_trait_data = scaler.fit_transform(trait_data)
     scaled_trait_data = pd.DataFrame(scaled_trait_data, columns=trait_data.columns)
