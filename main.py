@@ -60,7 +60,7 @@ def main():
 
     # Perform k-means clustering - define 6 clusters and fit the model
     kmeans = KMeans(n_clusters=6, random_state=0, n_init=10)
-    cluster_labels = kmeans.fit_predict(scaled_trait_data) + 1  # Adjust cluster labels
+    cluster_labels = kmeans.fit_predict(scaled_trait_data) + 1  # Adjust cluster labels to be in range 1-6 instead of 0-5
 
     # Add cluster labels to scaled trait data
     scaled_trait_data['Clusters'] = cluster_labels
