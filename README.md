@@ -1,7 +1,7 @@
 # Personality Traits Analysis and Clustering
 
 
-This project aims to analyze personality traits data and perform clustering analysis to identify distinct personality profiles within the dataset.
+This project aims to analyze personality traits data and perform clustering analysis to identify distinct personality profiles within the dataset, by exploraing six factors model compare to Big Five personality model.
 
 ## Table of Contents
 
@@ -29,6 +29,7 @@ The dataset used in this project is sourced from [Kaggle](https://www.kaggle.com
 Before the analysis, the raw data is preprocessed, which includes:
 - Dropping irrelevant columns
 - Handling missing values
+- Dropping outliars (patiants which extremely not differentiate between different questions)
 - Renaming columns
 - Scaling the data using MinMaxScaler
 
