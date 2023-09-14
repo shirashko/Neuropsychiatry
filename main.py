@@ -99,7 +99,7 @@ def main():
     
     # check correlation
 
-    # Calculate the correlation matrix for the factors
+    # Calculate the correlation matrix for the 6 factors model
     factors = ['EXT', 'EST', 'AGR', 'MET', 'AMB', 'OPN']
     correlation_matrix = trait_data[factors].corr()
 
@@ -109,7 +109,7 @@ def main():
     plt.title('Correlation Matrix of Personality Factors')
     plt.show()
 
-    # Compute the correlation matrix for factors with original conscientiousness (CON)
+    # Compute the correlation matrix for factors with original conscientiousness (CON) - for the big 5 model
     trait_data_big_five = trait_data.drop(['MET', 'AMB'], axis=1)
     trait_data_big_five['CON'] = CON
     factors_with_con = ['EXT', 'EST', 'AGR', 'CON', 'OPN']
