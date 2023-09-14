@@ -75,7 +75,7 @@ The original code that this project is based on is included in the repository as
 
 ## Usage
 
-1. Install the necessary dependencies using `pip install -r requirements.txt`.
+1. Install the necessary dependencies.
 2. Ensure the `data-final.csv` file is in the same directory.
-3. Run the script using `python script_name.py`.
+3. Run the script using `python main.py`.
 
