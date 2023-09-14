@@ -1,7 +1,7 @@
 # Personality Traits Analysis and Clustering
 
 
-This project aims to analyze personality traits data and perform clustering analysis to identify distinct personality profiles within the dataset, by exploraing six factors model compare to Big Five personality model.
+This project aims to Analyze personality trait data, use clustering analysis to identify different personality profiles within the dataset, wxplore a six-factor personality model, and compare the findings with the well-known Big Five personality model.
 
 ## Table of Contents
 
@@ -22,7 +22,7 @@ This project focuses on analyzing personality traits data and discovering patter
 
 ## Data
 
-The dataset used in this project is sourced from [Kaggle](https://www.kaggle.com/code/akdagmelih/five-personality-clusters-k-means). The original dataset contains personality traits survey data. The survey responses are categorized into different traits such as extroversion, neuroticism, agreeableness, methodicalness, ambition, and openness.
+The dataset used in this project is sourced from [Kaggle](https://www.kaggle.com/code/akdagmelih/five-personality-clusters-k-means). The original dataset contains personality traits survey data. In this project, the survey responses are categorized into different traits such as extroversion, neuroticism, agreeableness, methodicalness, ambition, and openness.
 
 ## Data Preprocessing
 
@@ -41,6 +41,8 @@ The main analysis involves K-means clustering, where the scaled data is clustere
 
 The project includes visualizations of:
 - Bar plots and line plots to display the means of personality factors for each cluster
+- <img width="1002" alt="image" src="https://github.com/shirashko/Neuropsychiatry/assets/130151997/7c553b0c-f997-4bcf-b0ea-4d9b9b00af85">
+
 - 2D scatter plot using PCA to visualize the clusters
 
 ## Correlation Analysis
