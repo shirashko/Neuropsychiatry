@@ -22,7 +22,7 @@ This project focuses on analyzing personality traits data and discovering patter
 
 ## Data
 
-The dataset used in this project is sourced from [Kaggle](https://www.kaggle.com/code/akdagmelih/five-personality-clusters-k-means). The original dataset contains personality traits survey data. In this project, the survey responses are categorized into different traits such as extroversion, neuroticism, agreeableness, methodicalness, ambition, and openness.
+The dataset used in this project is sourced from [Kaggle](https://www.kaggle.com/datasets/tunguz/big-five-personality-test?resource=downloa) The original dataset contains personality traits survey data. In this project, the survey responses are categorized into different traits such as extroversion, neuroticism, agreeableness, methodicalness, ambition, and openness.
 
 ## Data Preprocessing
 
@@ -76,6 +76,6 @@ The original code that this project is based on is included in the repository as
 ## Usage
 
 1. Install the necessary dependencies.
-2. Ensure the `data-final.csv` file is in the same directory.
+2. Ensure the `data-final.csv` file is in the same directory
 3. Run the script using `python main.py`.
 
